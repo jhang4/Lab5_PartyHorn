@@ -14,7 +14,7 @@ jobs:
     if: github.event_name == 'issues'
     runs-on: ubuntu-latest
     steps:
-      - name: add funny comment
+      - name: Add funny comment
         uses: Marta83/funny-comment-action@v2.1
         id: FunnyComment
         with:
